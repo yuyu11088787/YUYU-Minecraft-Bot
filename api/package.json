@@ -1,0 +1,26 @@
+{
+  "name": "YUYU-Minecraft-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "yarn run build && node ./dist/index.js"
+  },
+  "engines": {
+    "node": "^20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "mineflayer": "^4.20.0",
+    "mineflayer-auto-eat": "^4.0.0",
+    "prismarine-viewer": "^1.28.0",
+    "typescript": "^5.5.2"
+  }
+}
